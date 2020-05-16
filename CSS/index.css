@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #EEB34B;
-    font-family: 'Calistoga', cursive;
+    font-family: 'Calistoga', cursive !important;
 }
 
 /*HEADER*/
@@ -67,9 +67,6 @@ section div .imagen {
 }
 
 @media only screen and (max-width: 414px) {
-    body {
-        font-family: 'Calistoga', cursive;
-    }
     section h1 {
         margin: 0px 0px 10px 0px;
     }
