@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #EEB34B;
-    font-family: 'Calistoga', cursive;
+    font-family: 'Calistoga', cursive !important;
 }
 
 /*HEADER*/
