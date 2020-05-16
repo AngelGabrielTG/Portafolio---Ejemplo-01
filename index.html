@@ -14,22 +14,24 @@
     <title>EJEMPLO-PORTAFOLIO</title>
 </head>
 <body>
-    <header>
-        <nav class="nav-wrapper">
-            <div class="container"> 
-                <a href="index.html" class="brand-logo">Portafolio01</a>
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#inicio">01. Inicio</a></li>
-                    <li><a href="#servicios">02. Servicios</a></li>
-                    <li><a href="#proyectos">03. Proyectos</a></li>
-                    <li><a href="#contacto">04. Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="header navbar-fixed">
+        <header>
+            <nav class="nav-wrapper">
+                <div class="container"> 
+                    <a href="index.html" class="brand-logo">Portafolio01</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#inicio">01. Inicio</a></li>
+                        <li><a href="#servicios">02. Servicios</a></li>
+                        <li><a href="#proyectos">03. Proyectos</a></li>
+                        <li><a href="#contacto">04. Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
 
    <section class="container">
         <div class="row principal">
@@ -194,10 +196,13 @@
     </footer>
 
     <ul id="mobile-demo" class="sidenav">
-        <li><a href="#inicio">01. Inicio</a></li>
-        <li><a href="#servicios">02. Servicios</a></li>
-        <li><a href="#proyectos">03. Proyectos</a></li>
-        <li><a href="#contacto">04. Contacto</a></li>
+        <li class="titulo"><h3><a href="index.html">Portafolio 01</a></h3></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#inicio"><i class="material-icons">home</i>01. Inicio</a></li>
+        <li><a href="#servicios"><i class="material-icons">cloud</i>02. Servicios</a></li>
+        <li><a href="#proyectos"><i class="material-icons">folder_open</i>03. Proyectos</a></li>
+        <li><a href="#contacto"><i class="material-icons">call</i>04. Contacto</a></li>
+        <li><a class="btn-large"><i class="material-icons right">send</i>GET IN TOUCH</a></li>
     </ul>
 
     <div class="fixed-action-btn">
