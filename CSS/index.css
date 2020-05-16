@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #EEB34B;
+    font-family: 'Calistoga', cursive;
+}
+
+/*HEADER*/
+header {
+    width: 100%;
+    height: 20vh;
+}
+header nav {
+    background: #EEB34B;
+    /*position: fixed;
+    top: 0;*/
+}
+
+
+/*SECCION PRINCIPAL*/
+.container {
+    width: 90%;
+}
+section .principal {
+    width: 100%;
+    height: 80vh;
+}
+section h1 {
+    font-size: 20px;
+    margin: 100px 0px 10px 0px;
+}
+section h2 {
+    color: #343E54;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+}
+section h3 {
+    color: #343E54;
+    font-size: 25px;
+    line-height: 1.1;
+    font-weight: bold;
+    margin: 0;
+}
+section p {
+    font-size: 15px;
+}
+section div div {
+    margin-bottom: 10px;
+}
+section div .imagen {
+    margin: 100px 0px 10px 0px;
+}
+
+.tabs .indicator {
+    background-color: aqua;
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background: transparent;
+}
+
+
+/*FOOTER*/
+.page-footer {
+    background: #7D4427;
+}
+
+@media only screen and (max-width: 414px) {
+    section h1 {
+        margin: 0px 0px 10px 0px;
+    }
+    section h2 {
+        margin: 0px 0px 20px 0px;
+    }
+    section h3 {
+        margin: 0;
+    }
+    section p {
+        font-size: 15px;
+    }
+    section div div {
+        margin-bottom: 10px;
+    }
+    section div .imagen {
+        margin: 0px 0px 10px 0px;
+    }
+}
