@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #EEB34B;
-    font-family: 'Calistoga', cursive !important;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 /*HEADER*/
@@ -35,6 +35,7 @@ section h2 {
     line-height: 1.1;
     font-weight: bold;
     margin: 0px 0px 20px 0px;
+    font-family: 'Calistoga', cursive !important;
 }
 section h3 {
     color: #343E54;
